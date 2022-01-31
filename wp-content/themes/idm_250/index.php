@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-idm250
+HELLO WORLD!
 
 <?php get_footer(); ?>
