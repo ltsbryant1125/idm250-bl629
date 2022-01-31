@@ -26,15 +26,15 @@ define('DB_NAME', 'local_idm250');
 /** MySQL database username */
 // define( 'DB_USER', 'bludevdesign' );
 // define( 'DB_USER', 'bludevde_bludevdesign' );
-// define('DB_USER', 'root');
+define('DB_USER', 'root');
 
 /** MySQL database password */
 // define( 'DB_PASSWORD', 'OEYSQEisY^HRhHgr^R' );
 // define( 'DB_PASSWORD', 'C;#T;k,2p486' );
-// define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-// define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
