@@ -5,7 +5,7 @@
 }
 
 html {
-    color: ghostwhite;
+    color: #1a1a1a;
     background-color: #FFFAF0;
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +25,11 @@ li {
     justify-content: space-between;
     padding: 20px;
     background-color:#1a1a1a;
+    color: #fff;
+}
+
+.menu-footer-menu-container {
+    background-color: #1a1a1a;
     color: #fff;
 }
 
@@ -91,4 +96,138 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #ADD8E6;
     }
+}
+
+.portfolio-head {
+    display: flex;
+    justify-content: center;
+    max-width: 1060px;
+    margin: auto;
+    background: rgba(173, 216, 230, 0.25);
+}
+
+.portfolio-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.body-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.head-404 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.detail-head {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: auto;
+    background: rgba(173, 216, 230, 0.25);
+}
+
+.detail-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.detail-text {
+    max-width: 55rem;
+    padding: 1rem;
+}
+
+.detail-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.place {
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d';
+}
+
+.place-pic {
+    max-width: 30rem;
+    max-height: 20rem;
+}
+
+.place-1 {
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.place-2 {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.place-3 {
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.place-4 {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.search-bar {
+    width: 550px;
+    height: 65px;
+    padding: 1rem;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+}
+
+.search-head {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inline-text {
+    font-size: 2rem;
+}
+
+.search-place {
+    display: flex;
+    justify-content: center;
+}
+
+.lead {
+    max-width: 70rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.front-main {
+    background-color: rgba(173, 216, 230, 0.5);
 }

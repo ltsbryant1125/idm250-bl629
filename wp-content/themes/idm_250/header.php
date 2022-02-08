@@ -17,7 +17,8 @@
      ?>
 </head>
 <body>
-    <img src="http://localhost:8888/wp-content/uploads/2022/01/Logo.png" alt="Logo">
-
+    <img src="http://bludevdesign.com/idm250/wp-content/uploads/2022/02/Logo-1.png" alt="Logo">
+    <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
     <?php
     wp_nav_menu(['theme_location' => 'primary_menu']);
