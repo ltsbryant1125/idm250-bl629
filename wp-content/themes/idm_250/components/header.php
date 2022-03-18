@@ -14,6 +14,7 @@
             <div class="menu">
                 <?php
                     $menu_items = idm_render_menu('primary_menu');
+                    get_template_part('components/search-form');
 
                     if ($menu_items) {
                     foreach ($menu_items as $key => $row) {
