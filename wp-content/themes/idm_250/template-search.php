@@ -2,6 +2,9 @@
 /* Template Name: Search Results */
  get_header(); ?>
 <?php
+echo '<pre>';
+    var_dump($_GET['s']);
+echo '</pre>';
  $args = [
      's' => $_GET['s'],
      'post_type' => $_GET['post_type'],
