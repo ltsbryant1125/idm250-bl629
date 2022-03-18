@@ -1,18 +1,28 @@
 <?php get_header(); ?>
 
-This is the single-idm-projects file
-
 <?php while (have_posts()) : the_post(); ?>
-<div class="">
-  <h1 class=""><?php the_title(); ?>
-  </h1>
-
-  <div class="">
-    <!-- start content -->
-    <?php the_content(); ?>
-    <!-- end content -->
-  </div>
+<div class="single-projects container">
+  <main>
+    <h1 class=""><?php the_title(); ?>
+    </h1>
+    <div style="margin-left: 20px;">
+      <?php
+        $terms = get_the_terms(get_the_ID(), 'idm-project-categories');
+        if ($terms) {
+            foreach ($terms as $term) {
+                echo $term->name . ',';
+            }
+        }
+    ?>
+    </div>
+    <div class="editor">
+      <!-- start content -->
+      <?php the_content(); ?>
+      <!-- end content -->
+    </div>
+  </main>
 </div>
 <?php endwhile; ?>
+
 
 <?php get_footer(); ?>
