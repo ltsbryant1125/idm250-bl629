@@ -11,7 +11,7 @@ $project_query = new WP_Query($arg);
 ?>
 
 <section class="featured-works">
-  <h2>Featured Works</h2>
+  <h2 class="works-head">Featured Works</h2>
   <div class="works">
     <?php
     while ($project_query->have_posts()) : $project_query->the_post(); ?>
@@ -28,10 +28,8 @@ $project_query = new WP_Query($arg);
       <img class="recent-work-teaser__image"
         src="<?php echo $featured_image['src']; ?>"
         alt="<?php echo $featured_image['alt']; ?>">
-      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+      <h2 class="recent-work-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
       </h2>
-      <p><?php the_excerpt(); ?>
-      </p>
     </div>
     <?php
     endwhile;

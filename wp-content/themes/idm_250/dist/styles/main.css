@@ -337,3 +337,80 @@ General/Default Styling
     color: white;
     background-color: #ADD8E6;
 }
+
+#about_para {
+    max-width: 30rem;
+    line-height: 1.5rem;
+}
+
+/* 
+Home Page Styling
+*/
+.hero {
+    background-color: #D6E9EB;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-cont {
+    background-color: #F5FAFA;
+    border-radius: 10px;
+    padding: 1rem 25rem 2rem;
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.hero-sub {
+    text-align: center;
+}
+
+.works-head {
+    text-align: center;
+    padding: 2rem;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-work-teaser__image {
+    max-height: 400px;
+    max-width: 500px;
+    padding: 0rem 2rem 0rem;
+}
+
+.recent-work-header {
+    text-align: center;
+}
+
+.works p {
+    text-align: center;
+    max-width: 500px;
+    line-height: 1.5rem;
+}
+
+/*
+Portfolio Listing
+*/
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.project-head {
+    text-align: center;
+}
+
+.project-teaser img{
+    max-height: 400px;
+    max-width: 500px;
+}
+
+.project-teaser h2 {
+    text-align: center;
+    padding: 1.5rem;
+}

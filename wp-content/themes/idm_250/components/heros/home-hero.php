@@ -1,4 +1,6 @@
 <section class="hero">
-    <h1><?php echo $args['heading'] ?></h1>
-    <p><?php echo $args['body'] ?></p>
+    <div class="hero-cont">
+        <h1 class="hero-title"><?php echo $args['heading'] ?></h1>
+        <p class="hero-sub"><?php echo $args['body'] ?></p>
+    </div>    
 </section>

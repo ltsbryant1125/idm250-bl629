@@ -6,7 +6,7 @@
 
 <?php while (have_posts()) : the_post(); ?>
 <div class="container">
-  <h1 class=""><?php echo get_the_title(); ?>
+  <h1 class="project-head"><?php echo get_the_title(); ?>
   </h1>
 
 

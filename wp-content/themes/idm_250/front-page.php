@@ -9,7 +9,7 @@ get_template_part(
     null,
     [
         'heading' => 'Bryant Lu',
-        'body' => 'Developer'
+        'body' => 'UX Designer'
     ]
 );
 get_template_part('components/recent-works');

@@ -13,7 +13,7 @@ $project_query = new WP_Query($arg);
 ?>
 
 <section class="featured-works">
-  <h2>Recent Posts</h2>
+  <h2 class="works-head">Recent Posts</h2>
   <div class="works">
     <?php
     while ($project_query->have_posts()) : $project_query->the_post(); ?>

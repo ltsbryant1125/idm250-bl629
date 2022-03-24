@@ -11,9 +11,9 @@
 
   <?php the_post_thumbnail(); ?>
 
-  <div class="general-main">
-      <div class="general-cont">
-          <div class="general">
+  <div class="custom-general-main">
+      <div class="custom-general-cont">
+          <div class="custom-general">
             <h1 class="title-gen"><?php the_title(); ?>
             </h1>
             <!-- start content -->
